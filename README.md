@@ -5,6 +5,7 @@ A lab on the Flux architecture, using React.
 ## Usage
 
 ```bash
+npm install
 make watch
 ```
 
@@ -12,7 +13,7 @@ make watch
 
 Using Facebook's [Flux](http://facebook.github.io/flux/docs/overview.html) architecture, implement two or more unrelated components (i.e. lacking parent-child relationship) that affect each other's state.
 
-You can either write your own dispatcher or use the one that is [provided to you](https://github.com/facebook/flux/blob/master/src/Dispatcher.js).
+You can either write your own dispatcher or use the one that is [provided to you](https://www.npmjs.com/package/flux).
 
 **Suggestions:**
 
