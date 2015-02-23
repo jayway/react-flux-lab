@@ -6,7 +6,7 @@ A lab on the Flux architecture, using React.
 
 ```bash
 npm install
-make watch
+npm start
 ```
 
 ## Objective
