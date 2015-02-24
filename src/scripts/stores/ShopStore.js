@@ -28,18 +28,18 @@ var ShopStore = _.extend({}, EventEmitter.prototype, {
 var shopItems = [
   {
     id: 0,
-    name: 'Pile o\' Books',
-    image: '📚'
+    name: 'Umbrella',
+    image: '\u2602'
   },
   {
     id: 1,
-    name: 'Shaved Dice',
-    image: '🎲'
+    name: 'Scissors',
+    image: '\u2702'
   },
   {
     id: 2,
-    name: 'Space Invader',
-    image: '👾'
+    name: 'Phone',
+    image: '\u260E'
   }
 ];
 
