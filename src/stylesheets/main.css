@@ -65,6 +65,7 @@ button {
   font-family: "Roboto Slab", sans-serif;
   font-weight: normal;
   background: #333;
+  color: gold;
   width: 100%;
 }
 [role="banner"] a {
@@ -132,6 +133,7 @@ button {
   font-size: 7.5rem;
   line-height: 1.1;
   margin-bottom: 4px;
+  color: lightslategray;
 }
 .shop .item figcaption {
   text-align: center;
@@ -139,11 +141,12 @@ button {
 }
 .shop .item button {
   width: 100%;
-  padding: .5rem;
-  border-radius: 8px;
-  background: royalblue;
+  padding: 1rem .5rem;
+  border-radius: 4px;
+  background: crimson;
   color: white;
-  text-shadow: 0 1px 0 #333;
+  text-transform: uppercase;
+  font-size: .9rem;
 
   transition: background .3s ease;
 }
