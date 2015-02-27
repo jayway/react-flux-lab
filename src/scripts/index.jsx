@@ -6,7 +6,7 @@ var Main = require('./components/main');
 
 React.render(
   <div className="page-wrap">
-    <Header title="React Flux Lab \o/" />
+    <Header title="TODOs" />
     <Main />
   </div>,
   document.querySelector('body')
