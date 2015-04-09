@@ -15,7 +15,7 @@ var ShopStore = _.extend({}, EventEmitter.prototype, {
     this.on(CHANGE_EVENT, callback);
   },
   removeChangeListener: function (callback) {
-    this.on(CHANGE_EVENT, callback);
+    this.removeListener(CHANGE_EVENT, callback);
   },
   getShopItems: function () {
     return shopItems;
